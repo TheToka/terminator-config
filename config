@@ -1,0 +1,42 @@
+[global_config]
+  borderless = True
+  enabled_plugins = TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  homogeneous_tabbar = False
+  inactive_color_offset = 0.88
+  scroll_tabbar = True
+  tab_position = hidden
+  title_hide_sizetext = True
+  title_inactive_bg_color = "#000000"
+  title_transmit_bg_color = "#000000"
+  title_use_system_font = False
+[keybindings]
+  hide_window = <Shift><Control>a
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#170e3b"
+    background_darkness = 0.8
+    background_type = transparent
+    color_scheme = custom
+    cursor_color = "#d8d8d8"
+    cursor_shape = ibeam
+    font = xos4 Terminus 11
+    foreground_color = "#00ff00"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    scrollback_lines = 5000
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+
+
+
+
+
