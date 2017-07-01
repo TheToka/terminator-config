@@ -2,7 +2,7 @@
   borderless = True
   enabled_plugins = TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   homogeneous_tabbar = False
-  inactive_color_offset = 0.88
+  inactive_color_offset = 0.85
   scroll_tabbar = True
   tab_position = hidden
   title_hide_sizetext = True
